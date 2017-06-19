@@ -1,0 +1,39 @@
+@import 'mixin';
+
+.topSideBar {
+	background-color: lightgray;
+	padding: 5px;
+	
+	.searchbox {
+		position: relative;
+	}
+	
+	.searchbox:before {
+		font-family: 'Glyphicons Halflings';
+		content: "\e003";
+		position: relative;
+		left: 26px;
+		top: 1px;
+	}
+	
+	input[type="search"] {
+		text-align: left;
+		padding-left: 25px;
+		padding-right: 10px;
+		@include border-radius(30px);
+	}
+	
+	.cart {
+		padding-right: 10px;
+		color: black;
+	}
+}
+
+.mainNavBar {
+	@include linearGradient(#f0b7a1, #8c3310, #752201, #bf6e4e);
+	padding: 10px;
+	
+	a {
+		color: white !important;
+	}
+}
