@@ -1,14 +1,37 @@
 {
-	"sass.enabled": false
-	, "path": {
-		"scss/style.scss": {
-			"sass.enabled": true
-			, "sass.options": {
-				"outputDir": "../css/"
-				, "includePaths": []
-				, "sourceComments": true
-				, "outputStyle": "compressed"
-			}
-		}
-	}
+    "sass.enabled": false,
+    "path": {
+        "scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": true,
+                "outputStyle": "compressed"
+            },
+            "linting.collapsed": true,
+            "brackets-git.gitPath": "git",
+            "alemonteiro.bracketsSqlConnector.server_list": {
+                "selected_id": 0,
+                "server_ids": 1,
+                "servers": {
+                    "1": {
+                        "__id": "1",
+                        "__connection_id": 0,
+                        "engine": "mysql",
+                        "name": "local",
+                        "host": "localhost",
+                        "port": "3306",
+                        "username": "root",
+                        "password": "orionpass",
+                        "database": "curs_baze",
+                        "confirmModifications": true,
+                        "saveModifications": false,
+                        "trustedConnection": false,
+                        "instanceName": ""
+                    }
+                }
+            }
+        }
+    }
 }
